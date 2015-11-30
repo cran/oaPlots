@@ -1,0 +1,60 @@
+0.0.24
+  o full densityLegend functionality with accompanying utility functions
+0.0.23
+  o prepare for CRAN submission
+0.0-22
+  o clean up layout 'after' addLegend call
+  o upgrade to roxygen2 4.0; miscellaneous namespace fixes
+  o import ggplot2 instead of depending on it
+0.0-21
+  o oaTheme example
+0.0.20
+  o added densityLegend() function
+0.0-19
+  o added oaTemplate buffer parameters
+0.0-18
+  o oaTheme() added
+0.0-16
+  o minor changes to oaTemplate and drawSplitDensity
+0.0-15
+  o 'par' handling now only changes the 'xpd' par, instead of all par values
+0.0-14
+  o added density input functionality to drawSplitDensity
+  o updated test script and warning messaging for drawSplitDensity
+0.0-13
+  o fixed a bug with the reversion of 'par' settings in function
+0.0-12
+  o added 'box' parameters to oaTemplate to allow for a bounding box
+  o fixed a buffer issue with oaTemplate
+  o added axis tickmark labelling to oaTemplate
+0.0-11
+  o added examples to pointsOnBoxplot, splitCircle, splitDensity, oaTemplate, prepLegend and addLegend
+  o pointsOnBoxplot now supports horizontal = TRUE
+0.0-10
+  o documentation fixes
+0.0-9
+  o added split circle documentation
+0.0-8
+  o added split circle function
+  o added split density functions
+  o added oaTemplate
+0.0-7
+  o added legend functions
+  o renamed package to 'oaPlots'
+  o fixed error for pointsOnBoxplot() with no y variable
+  o added 'roundTo' argument to pointsOnBoxplot()
+0.0-6
+  o renamed the package to pointsOnBoxplot and minor namespace fixes
+0.0-5
+  o wrote pointsOnBoxplot.formula and pointsOnBoxplot.default functions
+  o updated the test.pointsOnBoxplot script to test the new functionality 
+0.0-4
+  o fixed an error in the inner 'k' for loop of points on boxplot	
+0.0-3
+  o updated pointsOnBoxplot to have 'totalSpread' parameter
+  o use 'totalSpread'/2 when maxRep within a category is 2
+0.0-2
+  o add pointsOnBoxplot
+0.0-1
+  o first public version
+  
